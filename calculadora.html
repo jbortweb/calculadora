@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculadora</title>
+
+<link rel="stylesheet" href="estils.css">
+<script type="text/javascript" src="codi.js"></script>
+
+</head>
+
+<body>
+<table width="10%">
+  <tr>
+    <td colspan="5" text-align="center">
+    <input name="display" type="text" class="color_display" id="display" size="25"></td>
+  </tr>
+  <tr>
+    <td><input name="num7" type="button" class="numero" id="num7" value="7" onclick="display_numeros(7)"></td>
+    <td><input name="num8" type="button" class="numero" id="num8" value="8" onclick="display_numeros(8)"></td>
+    <td><input name="num9" type="button" class="numero" id="num9" value="9" onclick="display_numeros(9)"></td>
+    <td><input name="mas" type="button" class="operacion" id="button" value="+" onclick="suma()"></td>
+    <td><input name="restart" type="button" class="operacion" id="restart" value="C" onclick="restart()"></td>
+    
+  </tr>
+  <tr>
+    <td><input name="num4" type="button" class="numero" id="num4" value="4" onclick="display_numeros(4)"></td>
+    <td><input name="num5" type="button" class="numero" id="num5" value="5" onclick="display_numeros(5)"></td>
+    <td><input name="num6" type="button" class="numero" id="num6" value="6" onclick="display_numeros(6)"></td>
+    <td><input name="menos" type="button" class="operacion" id="button2" value="-" onclick="resta()"></td>
+    <td><input name="potencia" type="button" class="operacion" id="potencia" value=""></td>
+   
+  </tr>
+  <tr>
+    <td><input name="num1" type="button" class="numero" id="num1" value="1" onclick="display_numeros(1)"></td>
+    <td><input name="num2" type="button" class="numero" id="num2" value="2" onclick="display_numeros(2)"></td>
+    <td><input name="num3" type="button" class="numero" id="num3" value="3" onclick="display_numeros(3)"></td>
+    <td><input name="multiplicar" type="button" class="operacion" id="button3" value="*" onclick="multiplicacion()"></td>
+    <td><input name="raiz" type="button" class="operacion" id="raiz" value=""></td>
+    
+  </tr>
+  <tr>
+    <td><input name="num0" type="button" class="numero" id="num0" value="0" onclick="display_numeros(0)"></td>
+    <td><input name="decimal" type="button" class="operacion" id="decimal" value="," onclick="decimal()"></td>
+    <td><input name="igual" type="button" class="igual" id="button12" value="=" onclick="resultado()"></td>
+    <td><input name="dividir" type="button" class="operacion" id="button4" value="/" onclick="division()"></td>
+    <td><input name="potencia" type="button" class="operacion" id="potencia" value=""></td>
+    
+  </tr>
+
+  
+  
+</table>
+
+<br><br>
+<p>Hay varios errores que no puedo solucionar. Si despues de hacer una operacion de multiplicar o dividir no le das al restart, te suma 1 a la siguiente tecla que presionas.<br>
+  El otro es la opcion de restart, despues de darle, te pone el display a cero, pero la calculadora se vuelve un poco loca.<br>
+  No se podria llamar a la funcion de inicio, para que empiece como si empezara de cero la calculadora?<br>
+  Por todo lo demas creo que funciona perfectamente</p>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+/*******************Teclas calculadora*****************/
+
+.numero{
+	
+	width:120px;
+	height:60px;
+	background-color: mediumpurple;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+
+.operacion {
+
+	width:120px;
+	height:60px;
+	background-color: rgb(166, 164, 167);
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.igual{
+	width:120px;
+	height:60px;
+	background-color: rgb(166, 164, 167);
+	font-weight: bold;
+	font-size: 25px
+	
+}
+
+/*******************Tabla*****************/
+
+table{
+    border: 1px black solid;
+    margin:auto;
+    border-collapse: collapse;
+  
+}
+
+/******************Display****************/
+
+.color_display{
+    height:50px;
+    width: 600px;
+	background-color:#000;
+	border:medium #FFF;
+	font: "Space Age";
+	color:#0F0;
+	font-size:45px;
+	text-align:right;
+    padding:5px;
+   
+}
+
+
+
+
+
+
